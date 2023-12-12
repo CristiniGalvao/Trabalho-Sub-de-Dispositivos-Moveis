@@ -1,6 +1,8 @@
 package com.example.myapplication.dao;
+
 import java.util.ArrayList;
-public class IGenericDao <Object>{
+
+public interface IGenericDao <Object>{
     long insert(Object obj);
     long update(Object obj);
     long delete(Object obj);
